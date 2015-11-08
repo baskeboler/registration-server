@@ -1,8 +1,9 @@
-package com.example.services;
+package com.example.services.impl;
 
 import com.example.controllers.exceptions.ProductNotFoundException;
 import com.example.models.Product;
 import com.example.repos.ProductRepo;
+import com.example.services.ProductService;
 import org.springframework.stereotype.Service;
 
 import javax.inject.Inject;

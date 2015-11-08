@@ -1,10 +1,11 @@
-package com.example.services;
+package com.example.services.impl;
 
 import com.example.controllers.exceptions.InvalidRegistrationDetailsException;
 import com.example.models.Product;
 import com.example.models.Registration;
 import com.example.models.UserAccount;
 import com.example.repos.RegistrationRepo;
+import com.example.services.RegistrationService;
 import com.example.services.dto.KeyValidationRequest;
 import org.springframework.stereotype.Service;
 

@@ -1,9 +1,10 @@
-package com.example.services;
+package com.example.services.impl;
 
 import com.example.controllers.exceptions.EmailAlreadyExistsException;
 import com.example.controllers.exceptions.UserNotFoundException;
 import com.example.models.UserAccount;
 import com.example.repos.UserAccountRepo;
+import com.example.services.UserAccountService;
 import org.springframework.stereotype.Service;
 
 import javax.inject.Inject;
